@@ -1,0 +1,118 @@
+.dev1 {
+    border: 1px solid blue;
+}
+
+.dev2 {
+    border: 1px solid red;
+}
+
+.dev3 {
+    border: 1px solid green;
+}
+
+.dev4 {
+    border: 1px solid orangered;
+}
+
+.dev5 {
+    border: 1px solid turquoise;
+}
+
+.dev6 {
+    border: 1px solid purple;
+}
+
+.dev7 {
+    border: 1px solid pink;
+}
+
+.dev8 {
+    border: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(vitrine.jpg);
+    background-size: 100% 100%;
+    width: 1200px;
+    height: 300px;
+}
+
+#menus {
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 10%;
+    border: 1px solid black;
+}
+#logo{
+    border: 1px solid blue;
+    background-color: blue;
+    
+}
+
+#publicite {
+    height: 200px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 800px;
+    margin: 10px 5px 10px 0;
+    border: 1px solid black;
+}
+
+/*header fin*/
+
+section {
+    background-image: url(secrtion.jpg);
+    background-size: 100% 100%;
+    width: 1200px;
+    height: 500px;
+}
+
+#recherche {
+    width: 600px;
+    height: 25px;
+    margin: 5px 10px 0 0;
+    border: 1px solid black;
+
+}
+
+#affichage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    
+    left: 50px;
+    border: 1px solid black;
+
+
+}
+#news{
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;
+}
+
+
+#promo {
+    width: 150px;
+    height: 200px;
+    background-image: url(NOEL.png.png);
+    background-size: 100% 100%;
+}

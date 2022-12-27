@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1300px;
+}
+header
+{
+    background-image: url(vitrine.jpg);
+    background-size: 100% 100%;
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:space-between;
+
+}
+#menus{
+    border: 1px solid black;
+    width: 150px;
+    height: 180px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+   
+}
+.liste{
+    list-style-type:none;
+}
+#publicit{
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    background-color: red;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    font-size: small;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    background-color: green;
+  
+}
+#logo h1{
+    width: 100%;
+    margin:5px 0 0 5px ;
+ 
+  
+}
+#social{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    
+}
+
+
+
+
+section{
+    background-image: url(secrtion.jpg);
+    background-size: 100% 100%;
+    border: 1px solid black;
+    width:100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+#recherche{
+    border: 1px solid black;
+    width: 500px;
+    height: 30px;
+    background-color: pink;
+}
+#affichage{
+    border: 1px solid black;
+    width: 800px;
+    height: 400px;
+    background-color: rgb(214,150,200);
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    
+
+
+}
+#news{
+    border: 1px solid black;
+    width: 100px;
+    height: 350px;
+    background-color: #784d56;
+}
+#promo{
+    background-image: url(NOEL.png.png);
+    background-size: 100% 100%;
+    border: 1px solid black;
+    width: 400px;
+    height: 350px;
+    
+}
